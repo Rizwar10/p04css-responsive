@@ -1,0 +1,72 @@
+img{
+    width: 100%;
+    align-items: center;
+}
+
+body{
+    background-image: url(Images/triangles_pattern.png);
+}
+.awal:hover{
+    cursor: pointer;
+    color: blue;
+}
+.nama_rizwar{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+.atur-balok{
+    background-color: rgb(0, 224, 194);
+}
+
+.row{
+    border: 1px solid; 
+    padding: 20px;
+    text-align: left;
+    width: 700px;
+    height: 200px;
+}
+
+.tabel_data_pribadi{
+    padding: 20px;
+    text-align: left; 
+    border: 0px;
+    width: 700px;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+h5{
+    box-align:"right";
+    align-self:"top";
+}
+
+
+
+
+
+
+
+
+a{
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    transition-delay: 0.2s;
+    
+}

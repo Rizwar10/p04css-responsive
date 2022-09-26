@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir PMB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="images/kop-surat-IKMI.png">
+
+    <h1>FORMULIR PENDAFTARAN MAHASISWA BARU</h1>
+    <h4 class="awal">PETUNJUK PENGISIAN</h4>
+    <ol class="awal">
+        <li>Isilah data isian dengan cermat, teliti dan beanr</li>
+        <li>isilah dengan huruf kapital</li>
+        <li>salah penulisan pada pengisian formulir ini akan berakibat kesalahan pada penulisan data saudara pa ijazah</li>
+    </ol>
+
+    <form action="" method="post">
+    <fieldset class="atur-balok">
+        <legend class="nama_rizwar"><strong> FORM DATA DIRI </strong></legend>
+        <table border="0px">
+            <tr>
+                <th>1.</th>
+                <th>No Pendaftaran </th>
+                <td>:</td>
+                <th align="left" ><input type="text"></th>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th> Nama </th>
+                <td>:</td>
+                <th><input type="text"> </th>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>Tanggal Ujian </th>
+                <td>:</td>
+                <td><input type="date"></td>
+
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>Jenis Kelamin</th>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jeniskelamin" ><label for="Laki-laki">Laki-laki</label>
+                    <br>
+                    <input type="radio" name="jeniskelamin" ><label for="Perempuan">Perempuan</label>
+                </td>
+            </tr>
+
+            <!-- Pemilihan Jurusan -->
+            <tr>
+                <th>5.</th>
+                <th>Jurusan/Program yang dipilh</th>
+                <td>:</td>
+                <td><label for=""></label>
+                    <select name="" id="">
+                        <option value="">-</option>
+                        <option value="">Teknik Informatika</option>
+                        <option value="">Manajement Informatika</option>
+                        <option value="">Komputer Akutansi</option>
+                        <option value="">Sistem Informasi</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Jenjang</th>
+                <td>:</td>
+                <td>
+                    <input type="checkbox">S1 <br>
+                    <input type="checkbox">D3
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Waktu Kuliah </th>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="waktu_kuliah" ><label for="Pagi">Pagi</label> <br>
+                    <input type="radio" name="waktu_kuliah" ><label for="Malam">Malam</label>
+                </td>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Sistem Pembayaran
+                    <td>:</td>
+                    <td valign="top">
+                        <input type="radio" name="Pembayaran" ><label for="Angsuran">Angsuran</label> <br>
+                        <input type="radio" name="Pembayaran" ><label for="Tunai">Tunai</label>
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Ukuran Jaket</th>
+                <td>:</td>
+                <td align="center" valign="top">
+                    <select>
+                    <option>-</option>
+                    <option value="text">Small</option>
+                    <option value="text">medium</option>
+                    <option value="text">Large</option>
+                    <option value="text">Extra Large</option>
+                    </select> 
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+
+    <fieldset class="atur-balok">
+        <legend class="nama_rizwar"><strong> DATA PRIBADI </strong></legend>
+        <table class="table_data_pribadi" border="0px">
+            <tr>
+                <th>6.</th>
+                <th>AGAMA </th>
+                <td>:</td>
+                <td colspan="2"><input type="text"></td>
+            </tr>
+            <tr>
+                <th>7.</th>
+                <th>Tempat Dan Tanggal Lahir </th>
+                <td>:</td>
+                <td><input type="text" ></td>
+            </tr>
+            <tr>
+                <th>8.</th>
+                <th>Alamat Dan No Rumah</th>
+                <td>:</td>
+                <td colspan="4"><textarea cols="18" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <th>
+                    <th>RT/RW </th>
+                    <td>:</td>
+                    <td><input type="text" ></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Kode Pos </th>
+                    <td>:</td>
+                    <td><input type="number" ></td>
+                </th>
+            </tr>
+            <tr>
+                <th>9.</th>
+                <th>No Handphone </th>
+                <td>:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>10.</th>
+                <th>Kewarganegaraan </th>
+                <td>:</td>
+                <td>
+                    <input type="checkbox">WNI
+                    <input type="checkbox">WNA
+                </td>
+            </tr>
+            <tr>
+                <th> 
+                    <th>Gol Darah
+                        <td>:
+                            <td><select>
+                                <option value="gol darah">-</option>
+                                <option value="">A</option>
+                                <option value="">B</option>
+                                <option value="">AB</option>
+                                <option value="">O</option>
+                                </select></td>
+                        </td>
+                    </th>
+                </th>
+            </tr>
+            <tr>
+                <th>11.</th>
+                <th>Nama Orang tua/Wali</th>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>
+                    <th>Pekerjaan </th>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" >PNS/TNI/POLRI <br>
+                        <input type="checkbox" >Swasta <br>
+                        <input type="checkbox" >Wiraswasta <br>
+                        <input type="checkbox" >Lain-lain
+                    </td>
+                </th>
+            </tr>
+
+        </table>
+    </fieldset>
+    <br>
+    <!-- table pendidikan -->
+    <fieldset class="atur-balok">
+        <legend class="nama_rizwar"><strong> PENDIDIKAN TERAKHIR</strong></legend>
+        <table>
+            <tr>
+                <th>12.</th>
+                <th>Asal SMA/SMK </th>
+                <td>:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th>
+                    <th>Status Sekolah </th>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox" name="swasta" >Swasta
+                        <input type="checkbox" name="swasta" >Negri
+                    </td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Jurusan </th>
+                    <td>:</td>
+                    <td colspan="5"><input type="text"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Nomor ijazah SMA/SMK </th>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <th>Tanggal Lulus </th>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </th>
+            </tr>
+        </table>
+    </fieldset>
+    <!-- akhir tabel riwayat pendidikan -->
+    </form>
+
+    <h4>Catatan:*) hanya satu pilihan </h4>
+    <hr>
+    <h5 >Upload Bukti Tanda Tangan Digital</h5>
+    <form action="">
+        <input type="file" id="fileSaya" name="Filename">
+        <input type="submit">
+    </form>
+    <br><br><br>
+    <a href="https://rizwar10.github.io">Back To Home</a>
+
+  
+</body>
+</html>
